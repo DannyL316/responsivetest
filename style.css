@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pushster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+#hatter{
+    width: 100%;
+    height: 100%;
+    background-color: #F7F9F7;
+    z-index: 1;
+}
+
+/*--------------------- REAL DEAL ---------------------*/
+
+#con1,#con2,#con3,#con4{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 35%;
+    z-index: 2;
+}
+
+#con1{
+    min-height: 5%;
+    height: 20%;
+    background-color: #11151C;
+}
+
+#con2{
+    min-height: 5%;
+    height: 20%;
+    background-color: #212D40;
+}
+
+#con3{
+    min-height: 5%;
+    height: 20%;
+    background-color: #364156;
+}
+
+#con4{
+    min-height: 5%;
+    height: 40%;
+    background-color: #808F85;
+    padding-bottom: none;
+    margin-bottom: none;
+}
+
+h1{
+    color: #D66853;
+    font-family: 'Pushster', cursive;
+    font-weight: 100;
+    font-size: 2.5em;
+}
+
+p{
+    font-family: 'Pushster', cursive;
+    color: #ACBFA4;
+    font-weight: 50;
+    font-size: 1em;
+}
+
+/*--------------------- MEDIA WIDTH ---------------------*/
+
+@media screen and (min-width: 2560px) {
+  h1 {
+    font-size: 8em;
+  }
+  
+  p {
+       font-size: 3em; 
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 6em;
+  }
+  
+  p {
+       font-size: 1.6em; 
+  }
+}
+
+@media screen and (max-width: 840px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  p {
+       font-size: .7em; 
+  }
+}
+
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  p {
+       font-size: .6em; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  p {
+       font-size: .52em; 
+  }
+}
+
+/*---------------------- MEDIA HEIGHT ----------------------*/
+
+@media screen and (max-height: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  p {
+       font-size: .52em; 
+  }
+}
+
+@media screen and (max-height: 530px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  p {
+       font-size: .55em; 
+  }
+}
